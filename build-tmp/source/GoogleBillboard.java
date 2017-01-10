@@ -20,8 +20,7 @@ public void setup()
 	for(int j =2; j<e.length-1;j++)
      String digits = e.substring(1,11);
 	 double dNum = Double.parseDouble(digits);
-	 
-	 System.out.println(dNum);
+	
 	break;
 
 	 
