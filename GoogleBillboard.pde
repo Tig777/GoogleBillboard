@@ -5,10 +5,12 @@ public void setup()
   {
   	String digits = e.substring(j,j+10);
   	double dNum = Double.parseDouble(digits);
-  	System.out.println(dNum);
-  	break;
-  }
+  	 if(isPrime(dNum)==true){
+    System.out.println(dNum);
+    break;
+    }  
   noLoop();
+}
 }
 public void draw()  
 {   
